@@ -13,7 +13,7 @@ function onStart()
 	staff = createTeam("Staff",255,0,0)
 	
 	--Set our gamemode name
-	setGameType("SourceMode V"..version)
+	setGameType("Odin"..version)
 	
 	--Move current players into the Players team
 	for k,v in ipairs(getElementsByType("player")) do
